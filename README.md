@@ -11,7 +11,7 @@ Usage
 flutter run
 ```
 
-##Flutter News application with NewsAPI org.
+## Flutter News application with NewsAPI org.
 In Flutter News App, we will load top headlines on the home page and we have categories option to see top headlines based on categories.
 
 
