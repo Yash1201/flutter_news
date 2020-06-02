@@ -44,6 +44,15 @@ class _CategoryNewsState extends State<CategoryNews> {
             ),)
           ],
         ),
+        actions: <Widget>[
+          Opacity(
+            opacity: 0,
+            child: Container(
+              padding: EdgeInsets.symmetric(horizontal: 16),
+              child: Icon(Icons.share),
+            ),
+          )
+        ],
         elevation: 0.0,
       ),
       body: _loading ? Center(
